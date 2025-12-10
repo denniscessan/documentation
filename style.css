@@ -11,6 +11,11 @@
   padding-bottom: 90px !important;
 }
 
+/* Preview carousel images - align from top */
+.scroll-content img {
+  object-position: top !important;
+}
+
 @media (min-width: 1024px) {
   .bg-pricing-bg {
     padding-bottom: 64px !important;
@@ -105,7 +110,7 @@ div.sticky.bottom-0.z-20 {
 .landing-page .purple-star-hero {
   position: absolute;
   right: -1rem;
-  top: -0.5rem;
+  top: -2.5rem;
   width: 50px;
   height: 50px;
 }
