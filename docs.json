@@ -1,0 +1,60 @@
+{
+  "$schema": "https://mintlify.com/docs.json",
+  "theme": "mint",
+  "name": "LinkShop",
+  "appearance": {
+    "default": "light",
+    "strict": true
+  },
+  "colors": {
+    "primary": "#fddd6d",
+    "light": "#fddd6d",
+    "dark": "#fddd6d"
+  },
+  "css": "style.css",
+  "js": "custom.js",
+  "staticDir": ["images"],
+  "favicon": "/favicon.svg",
+  "navigation": {
+    "dropdowns": [
+      {
+        "dropdown": "Docs",
+        "icon": "book-open",
+        "href": "/quickstart"
+      }
+    ]
+  },
+  "logo": {
+    "light": "/logo/light.svg",
+    "dark": "/logo/dark.svg"
+  },
+  "navbar": {
+    "links": [
+      {
+        "label": "Blog",
+        "href": "https://getlinkshop.com/blog"
+      }
+    ],
+    "primary": {
+      "type": "button",
+      "label": "Get started",
+      "href": "https://apps.shopify.com/linkshop-link-in-bio?utm_campaign=website"
+    }
+  },
+  "footer": {
+    "links": [
+      {
+        "items": [
+          {
+            "label": "App Store",
+            "href": "https://apps.shopify.com/linkshop-link-in-bio"
+          },
+          {
+            "label": "Say hello",
+            "href": "mailto:hello@getlinkshop.com"
+          }
+        ]
+      }
+    ]
+  }
+}

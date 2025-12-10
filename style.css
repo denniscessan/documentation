@@ -1,0 +1,358 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Poppins:wght@300;400;500;600&display=swap');
+
+/* Landing page layout */
+.landing-page {
+  width: 100%;
+  overflow-x: hidden;
+}
+
+/* Prevent horizontal scroll and remove white border */
+html, body {
+  overflow-x: hidden;
+  background: transparent !important;
+}
+
+/* Remove Mintlify page container padding/margin */
+main, article, [class*="prose"] {
+  max-width: 100% !important;
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+/* Force full width on custom mode pages */
+#content-container, .content-container {
+  max-width: 100% !important;
+  padding: 0 !important;
+}
+
+/* Disable image zoom on landing page */
+.landing-page img {
+  cursor: default !important;
+  pointer-events: none;
+}
+
+/* Header background color */
+header, nav, #navbar, [class*="navbar"] {
+  background-color: #f3f3f3 !important;
+}
+
+/* Navbar primary button - black text and border */
+#topbar-cta-button span, #topbar-cta-button svg {
+  color: #000000 !important;
+}
+
+#topbar-cta-button .absolute.inset-0 {
+  border: 1px solid #000000 !important;
+}
+
+/* Hide footer */
+footer {
+  display: none !important;
+}
+
+/* Hide chat assistant floating input */
+.chat-assistant-floating-input,
+div.sticky.bottom-0:has(.chat-assistant-floating-input),
+div.sticky.bottom-0.z-20 {
+  display: none !important;
+}
+
+/* Decorative image sizes - Hero purple star */
+.landing-page .purple-star-hero {
+  position: absolute;
+  right: -1rem;
+  top: -0.5rem;
+  width: 50px;
+  height: 50px;
+}
+@media (min-width: 640px) {
+  .landing-page .purple-star-hero {
+    right: -2rem;
+    top: -1rem;
+    width: 80px;
+    height: 80px;
+  }
+}
+@media (min-width: 1024px) {
+  .landing-page .purple-star-hero {
+    right: -4rem;
+    top: -1rem;
+    width: 111px;
+    height: 111px;
+  }
+}
+
+/* Hero yellow star */
+.landing-page .yellow-star-hero {
+  position: absolute;
+  right: -0.5rem;
+  top: 1rem;
+  width: 40px;
+  height: 40px;
+}
+@media (min-width: 640px) {
+  .landing-page .yellow-star-hero {
+    right: -1.5rem;
+    top: 1.5rem;
+    width: 60px;
+    height: 60px;
+  }
+}
+@media (min-width: 1024px) {
+  .landing-page .yellow-star-hero {
+    right: -3rem;
+    top: 2rem;
+    width: 96px;
+    height: 96px;
+  }
+}
+
+/* Hero hand pointer */
+.landing-page .hand-hero {
+  position: absolute;
+  left: -3rem;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 40px;
+  height: 40px;
+}
+@media (min-width: 640px) {
+  .landing-page .hand-hero {
+    left: -4rem;
+    width: 56px;
+    height: 56px;
+  }
+}
+@media (min-width: 768px) {
+  .landing-page .hand-hero {
+    left: -6rem;
+    width: 72px;
+    height: 72px;
+  }
+}
+
+/* Features lightning */
+.landing-page .lightning-features {
+  width: 40px;
+  height: 55px;
+}
+@media (min-width: 640px) {
+  .landing-page .lightning-features {
+    width: 55px;
+    height: 76px;
+  }
+}
+@media (min-width: 1024px) {
+  .landing-page .lightning-features {
+    width: 74px;
+    height: 102px;
+  }
+}
+
+/* Linktree smiley */
+.landing-page .smiley-linktree {
+  width: 50px;
+  height: 50px;
+}
+@media (min-width: 640px) {
+  .landing-page .smiley-linktree {
+    width: 60px;
+    height: 58px;
+  }
+}
+@media (min-width: 768px) {
+  .landing-page .smiley-linktree {
+    width: 76px;
+    height: 74px;
+  }
+}
+
+/* Testimonials stars */
+.landing-page .stars-testimonials {
+  width: 60px;
+  height: 60px;
+}
+@media (min-width: 640px) {
+  .landing-page .stars-testimonials {
+    width: 90px;
+    height: 90px;
+  }
+}
+@media (min-width: 1024px) {
+  .landing-page .stars-testimonials {
+    width: 120px;
+    height: 120px;
+  }
+}
+
+/* Testimonials purple star */
+.landing-page .purple-star-testimonials {
+  width: 50px;
+  height: 50px;
+}
+@media (min-width: 640px) {
+  .landing-page .purple-star-testimonials {
+    width: 80px;
+    height: 80px;
+  }
+}
+@media (min-width: 1024px) {
+  .landing-page .purple-star-testimonials {
+    width: 111px;
+    height: 111px;
+  }
+}
+
+/* Pricing doublestar */
+.landing-page .doublestar-pricing {
+  width: 50px;
+  height: 60px;
+}
+@media (min-width: 640px) {
+  .landing-page .doublestar-pricing {
+    width: 75px;
+    height: 90px;
+  }
+}
+@media (min-width: 1024px) {
+  .landing-page .doublestar-pricing {
+    width: 100px;
+    height: 120px;
+  }
+}
+
+/* Pricing detail */
+.landing-page .detail-pricing {
+  position: absolute;
+  top: -1rem;
+  left: -1rem;
+  width: 30px;
+  height: 30px;
+}
+@media (min-width: 640px) {
+  .landing-page .detail-pricing {
+    top: -1.25rem;
+    left: -2rem;
+    width: 40px;
+    height: 40px;
+  }
+}
+@media (min-width: 1024px) {
+  .landing-page .detail-pricing {
+    top: -1.5rem;
+    left: -3rem;
+    width: 50px;
+    height: 50px;
+  }
+}
+
+/* Pricing hand */
+.landing-page .hand-pricing {
+  position: absolute;
+  left: -2.5rem;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 40px;
+  height: 40px;
+}
+@media (min-width: 640px) {
+  .landing-page .hand-pricing {
+    left: -3.5rem;
+    width: 56px;
+    height: 56px;
+  }
+}
+@media (min-width: 768px) {
+  .landing-page .hand-pricing {
+    left: -5rem;
+    width: 72px;
+    height: 72px;
+  }
+}
+
+/* Font families */
+.font-poppins {
+  font-family: 'Poppins', sans-serif !important;
+}
+
+.font-inter {
+  font-family: 'Inter', sans-serif !important;
+}
+
+/* Custom colors */
+.bg-primary-yellow { background-color: #fddd6d; }
+.bg-green-accent { background-color: #e1fe95; }
+.bg-green-light { background-color: #d0fce6; }
+.bg-cyan-bg { background-color: #ccf0f2; }
+.bg-cyan-card { background-color: #e0fdff; }
+.bg-orange-dark { background-color: #fda16e; }
+.bg-orange-mid { background-color: #fcc39b; }
+.bg-orange-light { background-color: #fddfc7; }
+.bg-pink-card { background-color: #f4baec; }
+.bg-purple-highlight { background-color: #c3cdf1; }
+.bg-pricing-bg { background-color: #fff5d4; }
+.text-text-muted { color: #3a5456; }
+
+/* Box shadows */
+.shadow-card { box-shadow: 1px 1px 0px 0px #000000; }
+.shadow-card-lg { box-shadow: 2px 2px 0px 0px #000000; }
+.shadow-card-xl { box-shadow: 5px 5px 0px 0px #000000; }
+
+/* Hide scrollbar for previews section */
+.hide-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.hide-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+/* Auto-scrolling animation */
+.scroll-container {
+  display: flex;
+  width: max-content;
+}
+.scroll-content {
+  display: flex;
+  gap: 1rem;
+  animation: scroll 40s linear infinite;
+}
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(calc(-100% - 1rem));
+  }
+}
+.scroll-container:hover .scroll-content {
+  animation-play-state: paused;
+}
+
+@media (min-width: 640px) {
+  .scroll-content {
+    gap: 1.75rem;
+  }
+  @keyframes scroll {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(calc(-100% - 1.75rem));
+    }
+  }
+}
+
+/* Float hover effect for testimonials */
+.float-hover {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.float-hover:hover {
+  transform: translateY(-8px);
+  box-shadow: 4px 4px 0px 0px #000000;
+}
+
+/* Hide mobile button (Mintlify) */
+button.flex.items-center.h-14.py-4.px-5.lg\:hidden {
+  display: none !important;
+}
