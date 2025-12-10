@@ -14,7 +14,7 @@
   "css": "style.css",
   "js": "custom.js",
   "staticDir": ["images"],
-  "favicon": "/favicon.svg",
+  "favicon": "/favicon.ico",
   "navigation": {
     "dropdowns": [
       {
