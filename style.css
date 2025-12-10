@@ -6,6 +6,28 @@
   overflow-x: hidden;
 }
 
+/* Pricing section extra padding on mobile */
+.bg-pricing-bg {
+  padding-bottom: 90px !important;
+}
+
+@media (min-width: 1024px) {
+  .bg-pricing-bg {
+    padding-bottom: 64px !important;
+  }
+}
+
+/* Override Mintlify's default 120px padding on mobile */
+.flex.flex-row-reverse.gap-12.box-border.w-full {
+  padding-top: 60px !important;
+}
+
+@media (min-width: 1024px) {
+  .flex.flex-row-reverse.gap-12.box-border.w-full {
+    padding-top: 0 !important;
+  }
+}
+
 /* Prevent horizontal scroll and remove white border */
 html, body {
   overflow-x: hidden;
@@ -55,6 +77,28 @@ footer {
 div.sticky.bottom-0:has(.chat-assistant-floating-input),
 div.sticky.bottom-0.z-20 {
   display: none !important;
+}
+
+/* Hide mobile search button */
+#search-bar-entry-mobile {
+  display: none !important;
+}
+
+/* Style mobile navigation menu */
+#headlessui-dialog-panel-_r_6_,
+[id^="headlessui-dialog-panel"] {
+  background-color: #f3f3f3 !important;
+}
+
+/* Style mobile "Get started" button */
+[id^="headlessui-dialog-panel"] li:not(.navbar-link) a:not([target="_blank"]) {
+  background-color: #fddd6d !important;
+  color: #000 !important;
+  padding: 12px 20px !important;
+  border-radius: 10px !important;
+  border: 2px solid #000 !important;
+  font-weight: 600 !important;
+  display: inline-block !important;
 }
 
 /* Decorative image sizes - Hero purple star */
