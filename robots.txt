@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://getlinkshop.com/sitemap.xml
+Sitemap: https://getlinkshop.com/_feather/blog/sitemap-posts.xml
+Sitemap: https://getlinkshop.com/_feather/blog/sitemap.xml
